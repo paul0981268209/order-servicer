@@ -1,5 +1,5 @@
 package com.example.eric.myapplication3;
-
+/*    2017/1/12   */
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
