@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_quest"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.eric.myapplication3.quest"
+    android:orientation="vertical">
+
+    <TextView
+        android:text="雪花牛排     NT240"
+        android:layout_width="match_parent"
+        android:layout_height="30sp"
+        android:id="@+id/textView16"
+        android:textSize="20sp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:text="霜降牛排     NT290"
+        android:layout_width="match_parent"
+        android:layout_height="30sp"
+        android:id="@+id/textView17"
+        android:textSize="20sp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:text="牛小排         NT360"
+        android:layout_width="match_parent"
+        android:layout_height="30sp"
+        android:id="@+id/textView18"
+        android:textSize="20sp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:text="沙朗牛排     NT190"
+        android:layout_width="match_parent"
+        android:layout_height="30sp"
+        android:id="@+id/textView19"
+        android:textSize="20sp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:text="洋蔥豬排     NT230"
+        android:layout_width="match_parent"
+        android:layout_height="30sp"
+        android:id="@+id/textView20"
+        android:textSize="20sp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:text="特製豬排     NT190"
+        android:layout_width="match_parent"
+        android:layout_height="30sp"
+        android:id="@+id/textView21"
+        android:textSize="20sp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:text="鱈魚排         NT230"
+        android:layout_width="match_parent"
+        android:layout_height="30sp"
+        android:id="@+id/textView22"
+        android:textSize="20sp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:text="香蒜雞排     NT190"
+        android:layout_width="match_parent"
+        android:layout_height="30sp"
+        android:id="@+id/textView23"
+        android:textSize="20sp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:text="紐約客牛排 NT380"
+        android:layout_width="match_parent"
+        android:layout_height="30sp"
+        android:id="@+id/textView24"
+        android:textSize="20sp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:text="肋眼牛排     NT430"
+        android:layout_width="match_parent"
+        android:layout_height="30sp"
+        android:id="@+id/textView25"
+        android:textSize="20sp"
+        android:textColor="#000000"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text=""
+        android:ems="10"
+        android:textSize="20sp"
+        android:id="@+id/editText" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:text="確認"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/confirm"
+            android:layout_weight="1"
+            android:textSize="20sp"/>
+
+        <Button
+            android:text="取消"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/cancel"
+            android:layout_weight="1"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text=""
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/print"
+            android:textSize="20sp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:text=""
+            android:layout_width="match_parent"
+            android:layout_height="1sp"
+            android:id="@+id/tab1"
+            android:textColor="#FFFFFF"/>
+
+        <TextView
+            android:text=""
+            android:layout_width="match_parent"
+            android:layout_height="1sp"
+            android:id="@+id/tab2"
+            android:textColor="#FFFFFF"/>
+
+        <TextView
+            android:text=""
+            android:layout_width="match_parent"
+            android:layout_height="1sp"
+            android:id="@+id/tab3"
+            android:textColor="#FFFFFF"/>
+
+        <TextView
+            android:text=""
+            android:layout_width="match_parent"
+            android:layout_height="1sp"
+            android:id="@+id/tab4"
+            android:textColor="#FFFFFF"/>
+
+        <TextView
+            android:text=""
+            android:layout_width="match_parent"
+            android:layout_height="1sp"
+            android:id="@+id/tab5"
+            android:textColor="#FFFFFF"/>
+
+        <TextView
+            android:text=""
+            android:layout_width="match_parent"
+            android:layout_height="1sp"
+            android:id="@+id/tab6"
+            android:textColor="#FFFFFF"/>
+
+        <TextView
+            android:text=""
+            android:layout_width="match_parent"
+            android:layout_height="1sp"
+            android:id="@+id/tab7"
+            android:textColor="#FFFFFF"/>
+
+        <TextView
+            android:text=""
+            android:layout_width="match_parent"
+            android:layout_height="1sp"
+            android:id="@+id/tab8"
+            android:textColor="#FFFFFF"/>
+    </LinearLayout>
+
+</LinearLayout>
